@@ -1,0 +1,12 @@
+/* temos 3 tipos de seletores no CSS
+TAGS HTML; ID's e as class */
+        h1 {
+            color: red;
+            font-size: 45px;
+        }
+
+        p{
+            color: grey;
+            font-weight: bold;
+            font-size: 45px;
+        }

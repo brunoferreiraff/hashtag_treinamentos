@@ -1,0 +1,169 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+
+}
+
+
+.item-lista-cabecalho a {
+    color: #112e61;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 35px;
+    color: #404040;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+p{
+    font-size: 16px;
+
+}
+
+strong {
+    font-weight: 600;
+}
+
+.hero-paragraph {
+    font-size: 19px;
+}
+
+.botao {
+    color: orange;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* CONTEÚDOS GRATUITOS */
+
+.gratuito-h2,
+.diferenciais-h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+h2.gratuito-h2 span {
+    color: #7a40be;
+    font-weight: 600;
+}
+
+.gratuito-h3 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.gratuito-link-lista {
+    font-size: 19px;
+    text-decoration: none;
+    color: red;
+    background-color: yellow;
+}
+
+/* seção diferenciais */
+
+.diferenciais-p {
+    font-size: 19px;
+}
+
+.diferenciais-h3 {
+    color: #005e88;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.diferenciais-h3-empresas{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.diferenciais-h3-empresas a {
+    color: #005e88;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* O QUE FALAM */
+
+.oquefalam-h2 span{
+    font-weight: 600;    
+}
+
+.blog-postadoem {
+    font-size: 15px;
+}
+
+.blog-postadoem a{
+    text-decoration: none;
+    color:#f7a70c;
+    font-weight: 600;
+}
+
+.titulo-post {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.blog-descricao-post{
+    font-size: 17px;
+
+}
+
+/* como ajudar */
+
+.comoajudar-realce {
+    font-weight: 600;
+}
+
+.como-ajudar-lista, 
+.como-ajudar-paragrafo{
+    font-size: 19px;
+}
+
+.como-ajudar-lista a,
+.como-ajudar-paragrafo a{
+    color: #008ff7;
+    font-weight: 600;
+}
+
+.como-ajudar-paragrafo b{
+    font-weight: 600;
+}
+
+.minicurso-realce {
+    font-weight: 600;
+}
+
+.rodape-titulo {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.rodape-subtitulo{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape-titulo3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape-link {
+    color: #1a77a4;
+}
