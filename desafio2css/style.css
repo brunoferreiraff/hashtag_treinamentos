@@ -40,6 +40,23 @@ ul {
     list-style:none;
 }
 
+
+
+.cabecalho {
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 1.6rem 3.12rem;
+    box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+nav {
+    display: none;
+
+}
+
 /*seção hero */
 
 .secao {
@@ -190,19 +207,18 @@ h2.gratuito-h2 span {
     padding: 0.42rem 1.6rem;
     color: white;
     border-radius: 1rem;
-    transform: rotate(-15deg), translate(-50%, -50%);
     box-shadow: 0 0.21rem 0.4rem rgba(0,0,0,0.1);
-    position: relative;
+    position: absolute;
     top: 0;
     left: 50%;
-    transform: 
+    transform:  translate(-50%, -50%) rotate(-2deg); 
 }
 
 .caixa-frente-treinamentos {
     box-shadow: inset 0 0 0.8rem 0.5rem rgba(0,0,0,0.1);
     border-radius: 2.5rem;
     padding: 2rem;
-    position: absolute; 
+    position: relative; 
     
 }
 
@@ -221,6 +237,24 @@ h2.gratuito-h2 span {
 }
 
 /* seção diferenciais */
+
+
+.secao-diferenciais {
+    background-color: #f4f5f7;
+}
+
+.caixa-diferenciais-h2 {
+border-left: solid 0.5rem #ffb20f;
+padding: 0.52rem 0 0.52rem 2rem;
+}
+
+
+.container-diferenciais {
+    border-radius: 5px;
+    background-color: white;
+    padding: 5rem 3.2rem;
+}
+
 
 .diferenciais-p {
     font-size: 1.92rem;
