@@ -272,6 +272,7 @@ padding: 0.52rem 0 0.52rem 2rem;
 }
 
 .imagens-caixa-diferenciais {
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -286,13 +287,13 @@ padding: 0.52rem 0 0.52rem 2rem;
 }
 .imagens-caixa-diferenciais img{
     width: 100%;
-    
-
+    filter: grayscale(100%);
 }
 
 
 
 .caixa-items-diferenciais {
+    position: relative;
     background-color: white;
     border-radius: 2.5rem;
     box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15);
