@@ -355,6 +355,55 @@ padding: 0.52rem 0 0.52rem 2rem;
 
 }
 
+.secao-oquefalam {
+    background-image: url(https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oquefalam-titulo {
+    color: white;
+}
+
+.oquefalam-carrossel {
+    position: relative;
+}
+
+.oquefalam-carrossel-img {
+display: inline-block;
+background-position: 50%;
+background-size: cover;
+aspect-ratio: 16/9;
+border-radius: 2.6rem;
+width: 33%;
+}
+.oquefalam-carrossel-img--1{
+background-image: url(https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+.oquefalam-carrossel-img--2{
+background-image: url(https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+.oquefalam-carrossel-img--3{
+background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.oquefalam-seta {
+    position: absolute;
+    display:inline-block;
+    top:50%;
+    transform:translateY(-60%)
+}
+
+.seta-esquerda {
+    left: 0;
+    transform: translate(-150%, 60%);
+}
+.seta-direita {
+    right: 0;
+    transform: translate(150%, 60%);
+}
+
 /* como ajudar */
 
 .comoajudar-realce {
