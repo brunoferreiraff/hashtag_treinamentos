@@ -23,10 +23,9 @@ console.log(
   `Preco com desconto: R$${valorFinal} e está dentro do orçamento? ${valorReal}`
 );
 
-
 //questão 4
 
-let produtosEstoque = "20";
+let produtosEstoque = '20';
 let qtnMinima = 20;
 
 let prdEstoque = parseFloat(produtosEstoque);
@@ -34,13 +33,10 @@ let prdEstoque = parseFloat(produtosEstoque);
 let estoque = prdEstoque >= qtnMinima;
 console.log(estoque);
 
-if (estoque = true){
-    console.log("A quantidade no estoque é suficiente: True")
-} else{
-    console.log("Não é suficiente")
+if ((estoque = true)) {
+  console.log('A quantidade no estoque é suficiente: True');
+} else {
+  console.log('Não é suficiente');
 }
 
 //questão 5
-
-
-
