@@ -25,12 +25,25 @@ console.log(produto);
 //questão 4
 
 let venda = { cliente: 'Bruno', produto: 'celular', valor: 1000 };
-
-venda.data = 'hoje';
-
+console.log(venda)
+venda.data = '18/07/2026';
+delete venda.produto 
+console.log(venda)
 //questão 5
 
 let estoque = ['Maça', 'feijão', 'arroz', 'batata'];
 
-let novoEstoque = estoque;
+let novoEstoque = [...estoque];
 
+novoEstoque[2] = 'geladeira';
+
+console.log(estoque);
+console.log(novoEstoque);
+
+let funcionario = { nome: 'bruno', idade: 13, cargo: 'estag' };
+let novoFuncionario = {...funcionario};
+
+novoFuncionario.nome = 'Carlitos';
+
+console.log(funcionario);
+console.log(novoFuncionario);
