@@ -4,4 +4,12 @@ function exibirDetalhes(nome, curso) {
 
 exibirDetalhes('Bruno', 'Administração');
 
+function calcularprecos(precoUnitario, quantidade) {
+  let total = precoUnitario * quantidade;
+  console.log(total);
+}
+
+calcularprecos(3, 3);
+
+
 
